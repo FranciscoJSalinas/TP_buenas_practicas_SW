@@ -4,6 +4,11 @@
 
 #define MAX_CALLE 100
 
+//Variables globales
+Interseccion *historial = NULL;   //arreglo dinámico de intersecciones
+int cantidad = 0;                 //cantidad de registros ingresados
+
+
 //Estructura de datos de intersecciones
 typedef struct {
 	char calle1[MAX_CALLE];
